@@ -197,8 +197,10 @@ joe.scopeArrow();
 
 // TODO: Write a COMMENT below to answer the following questions.
 // 1. What is "this" when joe.scope() is invoked?
-// When joe.scope is invoked the arguments on line 151 are put into the constructor
-// Student on line 145 to produce the new student information
+// When joe.scope is invoked the properties on line 151 are put into the constructor
+// "Student" on line 145 to produce the new student information
 // 2. What is "this" when joe.scopeArrow() is invoked?
-//
+// The 'this' in this instance is undefined
 // 3. Explain why "this" is different when an arrow function is used.
+// Arrow functions don't have a binding to 'this', so when 'this' is used in an arrow
+// function, it refers to the window/global.
